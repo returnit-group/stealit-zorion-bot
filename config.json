@@ -1,0 +1,19 @@
+{
+    "pcname": "{PC_NAME}",
+    "domain": "{C2_DOMAIN}",
+    "ip": "{C2_IP",
+    "ssltxtname": "{NAME}",
+    "telegrambottoken": "{TELEGRAM_BOT_TOKEN}",
+    "dualhookchatid": "{DUALHOOK_CHAT_ID}",
+    "discordbottokeninjection": "{DISCORD_BOT_TOKEN",
+    "discordkanalwebhookinjection": "https://discord.com/api/webhooks/{GUID}/{WEBHOOK_TOKEN}",
+    "discordsunucuidinjection": "{UID}",
+    "discordkanalidinjection": "{UID}",
+    "adminbottoken": "{ADMIN_BOT_TOKEN}",
+    "setupbot": "{SETUP_BOT_TOKEN}",
+    "mongodbdbnamesiz": "mongodb+srv://{MONGO_USER}:{MONGO_PASS}@{}.{}.mongodb.net/?retryWrites=true&w=majority",
+    "mongodbdbname": "zorion",
+    "buildertoken": "{BUILDER_TOKEN}",
+    "mongodb": "mongodb+srv://{MONGO_USER}:{MONGO_PASS}@{}.{}.mongodb.net/zorion?retryWrites=true&w=majority"
+}
+

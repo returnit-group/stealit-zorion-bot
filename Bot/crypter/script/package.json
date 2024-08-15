@@ -1,0 +1,37 @@
+{
+  "name": "returnitgroup",
+  "version": "1.0.0",
+  "description": "Unity-Game",
+  "main": "55425a87db9991f0.js",
+  "author": "returnit-detect-this-author",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder --win"
+  },
+  "build": {
+    "win": {
+      "icon": "node.ico",
+      "target": "nsis"
+    },
+    "directories": {
+      "output": "dist"
+    }
+  },
+  "dependencies": {
+    "adm-zip": "^0.5.10",
+    "archiver": "^7.0.1",
+    "asar": "^3.2.0",
+    "axios": "^1.6.7",
+    "express": "^4.18.2",
+    "form-data": "^4.0.0",
+    "fs-extra": "11.2.0",
+    "randomstring": "^1.3.0",
+    "seco-file": "^2.0.0",
+    "sqlite3": "^5.0.2"
+  },
+  "devDependencies": {
+    "electron": "^28.3.1",
+    "electron-builder": "^23.5.1"
+  }
+}

